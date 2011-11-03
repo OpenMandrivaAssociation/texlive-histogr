@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/histogr
+# catalog-date 2006-11-09 15:16:55 +0100
+# catalog-license lppl1.3
+# catalog-version 1.01
 Name:		texlive-histogr
 Version:	1.01
 Release:	1
@@ -41,6 +47,7 @@ LaTeX picture-environment.
 #- source
 %doc %{_texmfdistdir}/source/latex/histogr/histogr.dtx
 %doc %{_texmfdistdir}/source/latex/histogr/histogr.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ LaTeX picture-environment.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
