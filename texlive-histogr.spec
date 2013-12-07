@@ -6,7 +6,7 @@
 # catalog-version 1.01
 Name:		texlive-histogr
 Version:	1.01
-Release:	5
+Release:	6
 Summary:	Draw histograms with the LaTeX picture environment
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/histogr
