@@ -1,6 +1,6 @@
 Name:		texlive-histogr
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Draw histograms with the LaTeX picture environment
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/histogr
