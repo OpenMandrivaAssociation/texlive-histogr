@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Draw histograms with the LaTeX picture environment
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/histogr
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/histogr
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/histogr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/histogr.doc.r%{version}.tar.xz
